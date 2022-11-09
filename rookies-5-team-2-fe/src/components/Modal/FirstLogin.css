@@ -1,0 +1,10 @@
+.btn-dark-edit {
+    background-color: red !important;
+    color: white !important;
+    border-color: red !important;
+}
+.btn-dark-edit:hover {
+    background-color: white !important;
+    color: red !important;
+    transition-duration: 0.6s;
+}

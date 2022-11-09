@@ -1,0 +1,24 @@
+.btn-primary-edit {
+    background-color: white !important;
+    color: grey !important;
+    border-color: grey !important;
+}
+.btn-secondary-edit {
+    background-color: #cc2239 !important;
+    color: white !important;
+    border-color: grey !important;
+}
+
+
+.btn-primary-edit:hover {
+    background-color: gray !important;
+    color: white !important;
+    transition-duration: 0.6s !important;
+}
+
+.btn-secondary-edit:hover {
+    background-color: white !important;
+    color: #cc2239 !important;
+    border-color: #cc2239 !important;
+    transition-duration: 0.6s !important;
+}

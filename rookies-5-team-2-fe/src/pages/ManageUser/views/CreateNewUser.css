@@ -1,0 +1,187 @@
+.dhv-edit-assignment-edit{
+    display:flex;
+    flex-direction:column;
+    /* box-shadow:0px 0px 10px 0px rgba(0,0,0,0.2); */
+    width: 70vw;margin-right: 5vw;
+}
+#dhv-edit-assignment-header-edit{
+    font-size: 1.5vw;
+    font-weight: bold;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    color: #cc2239;
+}
+#dhv-dropdown-basic-edit{
+    width: 20vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 4.5vw;
+    color:black;
+    background-color: white;
+    font-weight: normal;
+    border-color: black;
+    font-size: 1vw;
+    height: 2vw;
+}
+
+.dhv-edit-assignment-body-user-label-edit,
+.dhv-edit-assignment-body-asset-label-edit,
+.dhv-edit-assignment-body-note-label-edit,
+.dhv-edit-assignment-body-date-label-edit{
+    width: 10vw;
+    font-size: 1.2vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.dhv-edit-assignment-body-note-edit,
+.dhv-edit-assignment-body-user-edit,
+.dhv-edit-assignment-body-asset-edit,
+.dhv-edit-assignment-body-date-edit{
+    margin-left: 20vw;
+    display: flex;
+    flex-direction: row;
+}
+
+/*CSS for datepicker*/
+#dhv-edit-assignment-datepicker-input-edit,
+.dhv-edit-assignment-body-dropbox-edit,
+.dhv-edit-assignment-body-note-textarea-edit,
+.dhv-edit-assignment-body-date-datepicker-edit{
+    width: 20vw;
+
+}
+
+.dhv-edit-assignment-body-date-datepicker-edit{
+    border: black 1px solid;
+    border-radius: 7px;
+    height: calc(2vw + 1px);
+    display: flex;
+    flex-direction: row;
+
+}
+
+#dhv-edit-assignment-datepicker-input-with-button-edit,
+#dhv-edit-assignment-datepicker-input-edit{
+    border: black 1px solid;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    height: 2vw;
+    width: 100%;
+    text-align: center;
+    border-left: none;border-top: none;border-right: none;
+}
+#dhv-edit-assignment-datepicker-input-with-button-edit:focus,
+#dhv-edit-assignment-datepicker-input-edit:focus{
+    outline: none;
+}
+#dhv-edit-assignment-body-date-datepicker-close-button-edit{
+    align-self: center;
+}
+#dhv-edit-assignment-body-date-datepicker-close-button-edit:hover,
+#dhv-edit-assignment-body-date-datepicker-calendar-edit:hover{
+    cursor: pointer;
+}
+#dhv-edit-assignment-body-date-datepicker-calendar-edit{
+    margin-right: 0.5vw;
+    margin-left: 0.5vw;
+    margin-bottom: 0.5vw;
+    font-size: 2vw;
+    align-self: center;
+
+}
+
+/*CSS for note*/
+.dhv-edit-assignment-body-note-edit{
+    align-items: center;
+}
+#dhv-edit-assignment-body-note-textarea-input-edit,
+.dhv-edit-assignment-body-note-textarea-edit{
+    border: black 1px solid;
+    border-radius: 7px;
+    height: calc(8vw - 2.5px);
+    z-index: 0;
+}
+#dhv-edit-assignment-body-note-textarea-input-edit{
+    border-top: none;border-left: none;border-right: none;
+}
+/*CSS for page buttons*/
+.dhv-edit-assignment-body-button-edit{
+    margin-left: 30vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 2vw;
+    width: 20vw;
+}
+#dhv-edit-assignment-body-button-cancel-edit,
+#dhv-edit-assignment-body-button-save-edit{
+    width: 5vw;
+    height: 2vw;
+    border-radius: 7px;
+    font-size: 1.2vw;
+}
+#dhv-edit-assignment-body-button-cancel-edit{
+    border: #cc2239 1px solid;
+    background-color: #cc2239;
+    color: white;
+}
+#dhv-edit-assignment-body-button-save-edit{
+    border: green 1px solid;
+    background-color: green;
+    color: white;
+}
+
+/*CSS for datatable of user*/
+.dhv-edit-assignment-datatable-user-edit{
+    position: absolute;
+    top: 385px;left: 952px;
+    width: 40vw;
+    z-index: 2;
+    background-color: white;
+    border: black 1px solid;
+    border-radius: 7px;
+    /* border-color: rgba(0,0,0,0.5); */
+}
+
+/*CSS for datatable of user*/
+.dhv-edit-assignment-datatable-asset-edit{
+    position: absolute;
+    top: 435px;left: 952px;
+    width: 40vw;
+    z-index: 3;
+    background-color: white;
+    border: black 1px solid;
+    border-radius: 7px;
+}
+.btn-primary-edit-user {
+    background-color: white !important;
+    color: grey !important;
+    border-color: grey !important;
+}
+.btn-secondary-edit-user {
+    background-color: #cc2239 !important;
+    color: white !important;
+    border-color: grey !important;
+}
+
+
+.btn-primary-edit-user:hover {
+    background-color: gray !important;
+    color: white !important;
+    transition-duration: 0.6s !important;
+}
+
+.btn-secondary-edit-user:hover {
+    background-color: white !important;
+    color: #cc2239 !important;
+    border-color: #cc2239 !important;
+    transition-duration: 0.6s !important;
+}

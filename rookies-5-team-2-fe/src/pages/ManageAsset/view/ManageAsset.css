@@ -1,0 +1,252 @@
+.dlink {
+    text-decoration: none !important;
+    color: #03a9f3 !important;
+  }
+  
+  .data-table-extensions-filter {
+    border: 1px solid lightgray;
+    border-radius: 50px;
+    padding: 3px 5px;
+    width: 70%;
+  }
+  
+  .first {
+    padding-right: 10px !important;
+  }
+  
+  .filter-text {
+    border: none !important;
+    width: 80%;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+  
+  .wth-page-header {
+    display: flex;
+    flex-direction: column;
+  }
+  .wth-page-header-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: #cc2239;
+  }
+  .wth-page-header-functions {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  /* CSS for State sorter */
+  .wth-page-header-functions-state {
+    width: 10vw;
+  }
+  .btn.btn-success {
+    background-color: #cc2239;
+    border-color: #cc2239;
+    color: white;
+    font-weight: bold;
+    width: 8vw;
+  }
+  #dropdown-split-basic {
+    width: 2vw;
+  }
+  
+  /* CSS for Datepicker */
+  .wth-page-header-functions-datepicker {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 8vw;
+    /* z-index: 1; */
+    height: 38px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 7px;
+    border: 1px solid lightgray;
+  }
+  #wth-page-header-functions-datepicker-input,
+  #wth-page-header-functions-datepicker-input-with-button{
+    height: 36px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid lightgray;
+    border-radius: 7px;
+    border-right: none; border-top: none; border-left: none;
+  }
+  #wth-page-header-functions-datepicker-input:focus,
+  #wth-page-header-functions-datepicker-input-with-button:focus{
+    outline: none;
+  }
+  
+  #wth-page-header-functions-datepicker-button{
+    margin-right: 5px;
+    margin-top: 5px;
+  }
+  #wth-page-header-functions-datepicker-button:hover{
+    cursor: pointer;
+  }
+  
+  /* CSS for State */
+  .btn.btn-success:focus,
+  .btn.btn-success:visited,
+  #button-addon2:focus,
+  #button-addon2:visited {
+    background-color: #cc2239;
+    box-shadow: none;  
+  }
+  .btn.btn-success:hover{
+    background-color: #cc2239;
+    border-color: #cc2239;
+  }
+  .btn.btn-success:active,
+  #dropdown-split-basic:active,
+  #button-addon2:active{
+    background-color: red;
+  }
+  
+  @media (min-width: 736px) {
+    .col-md-4 {
+      flex: 0 0 auto;
+      width: 100% !important;
+    }
+  }
+  .btn.btn-success,
+  #dropdown-split-basic,
+  #button-addon2 {
+    background-color: #cc2239;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* CSS for action buttons */
+  .wth-action-icons {
+    margin-left: 5px;
+    margin-right: 5px;
+    border: none;
+  }
+  .wth-action-icons:disabled {
+    opacity: 0.2;
+  }
+  
+  @media (max-width: 736px) {
+    .wth-page-header-functions {
+      flex-direction: row;
+    }
+    .wth-page-header-functions-datepicker {
+      /* margin-top: 10px; */
+      /* margin-bottom: 10px; */
+      margin-left: 10px;
+      margin-right: 10px;
+      width: 20vw;
+    }
+    .col-md-4 {
+      flex: 0 0 auto;
+      width: 100% !important;
+    }
+    .wth-page-header-functions-state {
+      width: 20vw;
+    }
+    .btn.btn-success {
+      background-color: #cc2239;
+      border-color: #cc2239;
+      color: white;
+      font-weight: bold;
+      width: 15vw;
+    }
+    #dropdown-split-basic {
+      width: 5vw;
+    }
+    #wth-assignment-details-header {
+      color: #cc2239;
+      font-weight: bold;
+      font-size: 3vw;
+    }
+    .wth-assignment-details-body {
+      font-size: 2.4vw;
+    }
+    .wth-assignment-details-body-row-label,
+    .wth-assignment-details-body-note-label {
+      color: #cc2239;
+      font-weight: bold;
+    }
+    .wth-assignment-details-body-row {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 1vw;
+    }
+    .wth-assignment-details-body-row-label {
+      width: 30%;
+    }
+    .wth-assignment-details-body-note-value {
+      text-align: justify;
+    }  
+  }
+  
+  /* CSS for Modal */
+  #wth-assignment-details-header {
+    color: #cc2239;
+    font-weight: bold;
+    font-size: 3vh;
+  }
+  .wth-assignment-details-body {
+    font-size: 2.4vh;
+  }
+  .wth-assignment-details-body-row-label,
+  .wth-assignment-details-body-note-label {
+    color: #cc2239;
+    font-weight: bold;
+  }
+  .wth-assignment-details-body-row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1vh;
+  }
+  .wth-assignment-details-body-row-label {
+    width: 30%;
+  }
+  .wth-assignment-details-body-note-value {
+    text-align: justify;
+  }
+  
+/* CSS for action buttons */
+.dhv-action-icons {
+  margin-left: 5px;
+  margin-right: 5px;
+  border: none;
+  background-color: transparent;
+}
+.dhv-action-icons:disabled {
+  opacity: 0.3;
+  cursor:not-allowed !important;
+}
+
+
+
+
+
+
+.dhv-page-header-functions {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+/* CSS for State sorter */
+.dhv-page-header-functions-state {
+  width: 10vw;
+  margin-right: 10px;
+}
+#dhv-page-header-functions-create{
+  background-color: #cc2239;
+  border-color: #cc2239;
+  color: white;
+  font-weight: bold;
+  margin-left: 10px;
+}
+#dhv-page-header-functions-create:hover{
+  background-color: white;
+  color: #cc2239;
+}
+  

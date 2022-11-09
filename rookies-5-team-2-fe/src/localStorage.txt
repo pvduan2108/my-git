@@ -1,0 +1,12 @@
+username
+loginStatus: 1 loginPage, 2 login success, null not login
+token
+authority
+firstTime
+locationCode
+theChosenOne
+editAssignmentData
+assignmentId
+assetCode
+mockPassword
+reloaded

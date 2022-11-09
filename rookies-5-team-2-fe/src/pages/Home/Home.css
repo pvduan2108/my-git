@@ -1,0 +1,14 @@
+.dhv-home-body{
+    display: flex;
+    justify-content: center;
+}
+.dhv-home-body-table {
+    width: fit-content;
+}
+.dhv-home-body-table .idPHNo{
+    font-size: 1em;
+}
+/*
+.dhv-home-body-table .eAvOwz{
+    font-size: 1vw;
+} */

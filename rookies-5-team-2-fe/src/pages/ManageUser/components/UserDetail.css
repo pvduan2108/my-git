@@ -1,0 +1,24 @@
+#dhv-assignment-details-header {
+    color: #cc2239;
+    font-weight: bold;
+    font-size: 3vh;
+}
+.dhv-assignment-details-body {
+    font-size: 2.4vh;
+}
+.dhv-assignment-details-body-row-label,
+.dhv-assignment-details-body-note-label {
+    color: #cc2239;
+    font-weight: bold;
+}
+.dhv-assignment-details-body-row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1vh;
+}
+.dhv-assignment-details-body-row-label {
+    width: 30%;
+}
+.dhv-assignment-details-body-note-value {
+    text-align: justify;
+}

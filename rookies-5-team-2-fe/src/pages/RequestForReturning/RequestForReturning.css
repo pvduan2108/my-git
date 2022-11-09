@@ -1,0 +1,61 @@
+#accept-btn,
+#cancel-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 2em;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+#accept-btn polyline {
+    stroke: green;
+    stroke-width: 3px;
+}
+
+#accept-btn:disabled polyline {
+    stroke: rgba(0, 128, 0, 0.5);
+}
+
+#cancel-btn path {
+    stroke: red;
+    stroke-width: 3px;
+}
+
+#cancel-btn:disabled path {
+    stroke: rgba(255, 0, 0, 0.5);
+}
+
+#calendar-icon {
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+#calendar-icon path {
+    color: #7f7f7f;
+}
+
+.rdt_TableCol_Sortable .eUeqdG {
+    overflow-wrap: break-word;
+    overflow: initial;
+    white-space: initial;
+    text-overflow: initial;
+}
+
+.rdt_TableHeadRow .jzGaAN,
+.rdt_TableRow .jfrgbA {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+
+.hien-page-header-functions-state .btn.btn-success {
+    background-color: #cc2239;
+    border-color: #cc2239;
+    color: white;
+    font-weight: bold;
+    width: 15vw;
+}
+
+.hien-page-header-functions-state #dropdown-split-basic {
+    width: 2vw;
+}

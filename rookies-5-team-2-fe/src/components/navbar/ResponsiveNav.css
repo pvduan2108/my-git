@@ -1,0 +1,57 @@
+
+/* Media queries. change layout depending on conditions, such as viewport width */
+@media screen and (max-width: 1000px) {
+    .header #h1,
+    #rookie-navbar-text {
+      font-size: 4vw !important;
+      width: 60vw !important;
+      position: absolute;
+      top: 1.5vw; left: 20vw;
+    }
+    .header {
+      height: 11vw;
+      background-color: white;
+      border-bottom: #cc2239 1px solid;
+    }
+    #rookie-navbar-image {
+      position: absolute;
+      top: 0;
+      left: 2vw;
+    }
+    #rookie-navbar-icon {
+      display: block !important;
+      position: absolute;
+      top: 2.5vw;
+      right: 3vw;
+      font-size: 4vw;
+      color: #cc2239;
+    }
+    #rookie-navbar-icon:hover {
+      cursor: pointer;
+    }
+    .rookie-navbar{
+      width: 100vw !important;
+      z-index: 1;
+    }
+    #rookie-navbar-items {
+      box-sizing: border-box;
+      margin: 0px !important;
+      height: 10vw !important;
+      font-size: 2vw !important;
+      text-align: center;
+      padding-top: 3vw !important;
+    }
+    #rookie-navbar-items:hover {
+      background-color: #cc2239 !important;
+      color: white !important;
+    }
+    #rookie-navbar-items-hided{
+      display: none !important;
+    }
+    .rookie-container {
+      box-sizing: border-box;
+      padding-right: 5vw;
+      width: 95vw !important;
+    }
+  }
+  

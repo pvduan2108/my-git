@@ -1,0 +1,272 @@
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.dlink {
+  text-decoration: none !important;
+  color: #03a9f3 !important;
+}
+
+.data-table-extensions-filter {
+  border: 1px solid #cc2239;
+  border-radius: 50px;
+  padding: 3px 5px;
+  width: 70%;
+}
+
+.first {
+  padding-right: 10px !important;
+}
+
+.filter-text {
+  border: none !important;
+  width: 80%;
+}
+
+
+.dhv-page-header {
+  display: flex;
+  flex-direction: column;
+  /* margin-left: 2vw; */
+}
+.dhv-react-data-table{
+  width: 100%;
+  /* margin-left: 2vw; */
+}
+.dhv-react-data-table .idPHNo{
+  font-size: 1vw;
+}
+/* .dhv-react-data-table .cCKpPz{
+  font-size: 1vw;
+} */
+.dhv-page-header-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  color: #cc2239;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.dhv-page-header-functions {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+/* CSS for State sorter */
+.dhv-page-header-functions-state {
+  width: 10vw;
+}
+.btn.btn-success {
+  background-color: #cc2239;
+  border-color: #cc2239;
+  color: white;
+  font-weight: bold;
+  width: 8vw;
+}
+#dropdown-split-basic {
+  width: 2vw;
+}
+
+/* CSS for Datepicker */
+.dhv-page-header-functions-datepicker {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 13vw;
+  /* z-index: 1; */
+  height: 38px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 7px;
+  border: 1px solid #cc2239;
+  padding-right: 10px;
+  color: #cc2239;
+}
+#dhv-page-header-functions-datepicker-input,
+#dhv-page-header-functions-datepicker-input-with-button{
+  height: 36px;
+  width: 100%;
+  text-align: center;
+  border: 1px solid #cc2239;
+  border-radius: 7px;
+  border: none;
+  cursor: none;
+}
+#dhv-page-header-functions-datepicker-input:focus,
+#dhv-page-header-functions-datepicker-input-with-button:focus{
+  outline: none;
+  cursor: none;
+}
+#dhv-page-header-functions-datepicker-input:hover,
+#dhv-page-header-functions-datepicker-input-with-button:hover{
+  cursor:pointer;
+}
+
+
+#dhv-page-header-functions-datepicker-button{
+  margin-right: 5px;
+  margin-top: 5px;
+}
+#dhv-page-header-functions-datepicker-button:hover{
+  cursor: pointer;
+}
+
+.dhv-page-header-functions-datepicker-calendar:hover{
+  cursor: pointer;
+}
+/*CSS for create button*/
+#dhv-page-header-functions-create{
+  background-color: #cc2239;
+  border-color: #cc2239;
+  color: white;
+  font-weight: bold;
+  margin-left: 10px;
+}
+#dhv-page-header-functions-create:hover{
+  background-color: white;
+  color: #cc2239;
+}
+
+/* CSS for State */
+.btn.btn-success:focus,
+.btn.btn-success:visited,
+#button-addon2:focus,
+#button-addon2:visited {
+  background-color: #cc2239;
+  box-shadow: none;  
+}
+.btn.btn-success:hover,
+#button-addon2:hover{
+  background-color: white !important;
+  border-color: #cc2239;
+  color: #cc2239 !important;
+}
+.btn.btn-success:active,
+#dropdown-split-basic:active,
+#button-addon2:active{
+  background-color: red;
+}
+
+@media (min-width: 700px) {
+  .col-md-4 {
+    flex: 0 0 auto;
+    width: 100% !important;
+  }
+}
+.btn.btn-success,
+#dropdown-split-basic,
+#button-addon2 {
+  background-color: #cc2239;
+  color: white;
+  font-weight: bold;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+/* CSS for action buttons */
+.dhv-action-icons {
+  margin-left: 5px;
+  margin-right: 5px;
+  border: none;
+  background-color: transparent;
+}
+.dhv-action-icons:disabled {
+  opacity: 0.3;
+  cursor:not-allowed !important;
+}
+
+@media (max-width: 700px) {
+  .dhv-page-header-functions {
+    flex-direction: row;
+  }
+  .dhv-page-header-functions-datepicker {
+    /* margin-top: 10px; */
+    /* margin-bottom: 10px; */
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 20vw;
+  }
+  .col-md-4 {
+    flex: 0 0 auto;
+    width: 100% !important;
+  }
+  .dhv-page-header-functions-state {
+    width: 20vw;
+  }
+  .btn.btn-success {
+    background-color: #cc2239;
+    border-color: #cc2239;
+    color: white;
+    font-weight: bold;
+    width: 15vw;
+  }
+  #dropdown-split-basic {
+    width: 5vw;
+  }
+  #dhv-assignment-details-header {
+    color: #cc2239;
+    font-weight: bold;
+    font-size: 3vw;
+  }
+  .dhv-assignment-details-body {
+    font-size: 2.4vw;
+  }
+  .dhv-assignment-details-body-row-label,
+  .dhv-assignment-details-body-note-label {
+    color: #cc2239;
+    font-weight: bold;
+  }
+  .dhv-assignment-details-body-row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1vw;
+  }
+  .dhv-assignment-details-body-row-label {
+    width: 30%;
+  }
+  .dhv-assignment-details-body-note-value {
+    text-align: justify;
+  }  
+}
+
+/* CSS for Modal */
+#dhv-assignment-details-header {
+  color: #cc2239;
+  font-weight: bold;
+  font-size: 3vh;
+}
+.dhv-assignment-details-body {
+  font-size: 2.4vh;
+}
+.dhv-assignment-details-body-row-label,
+.dhv-assignment-details-body-note-label {
+  color: #cc2239;
+  font-weight: bold;
+}
+.dhv-assignment-details-body-row {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1vh;
+}
+.dhv-assignment-details-body-row-label {
+  width: 30%;
+}
+.dhv-assignment-details-body-note-value {
+  text-align: justify;
+}
+#dhv-page-header-title-icon:hover{
+  cursor: pointer;
+}
+#dhv-page-header-title:hover{
+  cursor: default;
+}
+#dhv-page-header-functions-search-input.form-control.is-invalid{
+  width: 0vw;
+}
+#dhv-page-header-functions-search-input.form-control,
+#dhv-page-header-functions-search-input.form-control.is-valid{
+  border: rgba(204, 34, 57, 1) 1px solid !important;
+}

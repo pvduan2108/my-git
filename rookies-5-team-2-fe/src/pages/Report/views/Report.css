@@ -1,0 +1,11 @@
+.nkq-page-header {
+    display: flex;
+    flex-direction: column;
+}
+.nkq-page-header-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: #cc2239;
+}

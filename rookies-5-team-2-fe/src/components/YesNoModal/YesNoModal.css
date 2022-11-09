@@ -1,0 +1,44 @@
+.custom-modal-style .modal-footer {
+    border: none;
+    justify-content: flex-start;
+    background-color: #fafcfc;
+}
+
+.custom-modal-style .modal-body {
+    background-color: #fafcfc;
+}
+
+.custom-modal-style .modal-header {
+    color: #cc2239;
+    background-color: #eff1f5;
+    border-bottom-color: #3c3e43;
+}
+
+.custom-modal-style .yes-btn {
+    background-color: #cc2239;
+    border-color: white;
+    margin: 8px;
+}
+
+.custom-modal-style .yes-btn:hover {
+    background-color: #e7222b;
+    border-color: #979ea4;
+}
+
+.custom-modal-style .yes-btn:active {
+    background-color: #e7222b;
+    border-color: #979ea4;
+}
+
+.custom-modal-style .no-btn {
+    background-color: #fafcfc;
+    border-color:#979ea4;
+    color: #6c757d;
+    margin: 8px;
+}
+
+.custom-modal-style .no-btn:hover {
+    background-color: #eff1f5;
+    border-color: #979ea4;
+    color: #6c757d;
+}
